@@ -1,0 +1,20 @@
+---
+import myselfPhoto from "@/assets/myself.webp";
+import Image from "astro/components/Image.astro";
+---
+
+<div
+  class="relative h-auto hover:animate-lift w-80 md:w-80 xl:w-[70%] 2xl:w-100"
+>
+  <span
+    class="absolute top-[50%] left-1/2 -translate-x-1/2 -translate-y-1/2 aspect-square rounded-full bg-white drop-shadow-[var(--shadow-white)] w-[101%]"
+  ></span>
+  <div class="rounded-b-full overflow-hidden drop-shadow-[var(--shadow-white)]">
+    <Image
+      src={myselfPhoto}
+      alt="Photo of myself"
+      class="w-full object-cover"
+      loading="eager"
+    />
+  </div>
+</div>

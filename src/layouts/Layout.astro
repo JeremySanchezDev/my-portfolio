@@ -1,0 +1,44 @@
+---
+import "aos/dist/aos.css";
+import "react-tooltip/dist/react-tooltip.css";
+import "@/styles/global.css";
+import NavbarObserverScript from "@/components/scripts/NavbarObserverScript.astro";
+import ScrollTopButtonObserverScript from "@/components/scripts/ScrollTopButtonObserverScript.astro";
+import AosInitScript from "@/components/scripts/AosInitScript.astro";
+import { getLangFromUrl, useTranslations } from "@/i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{t("meta.title")}</title>
+    <meta name="description" content={t("meta.description")} />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <meta property="og:site_name" content={t("meta.og.site_name")} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={t("meta.og.title")} />
+    <meta property="og:description" content={t("meta.og.description")} />
+    <meta property="og:url" content="https://jeremysg31.github.io/" />
+    <meta
+      property="og:image"
+      content="https://jeremysg31.github.io/og-image.png"
+    />
+
+    <meta name="author" content="Jeremy Sánchez" />
+
+    <meta name="generator" content={Astro.generator} />
+  </head>
+  <body class="overflow-x-hidden body-bg">
+    <slot />
+  </body>
+  <AosInitScript />
+  <NavbarObserverScript />
+  <ScrollTopButtonObserverScript />
+</html>

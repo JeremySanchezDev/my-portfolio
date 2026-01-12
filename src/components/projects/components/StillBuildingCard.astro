@@ -1,0 +1,32 @@
+---
+import { getLangFromUrl, useTranslations } from "@/i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<div
+  class="grid grid-rows-[auto_1fr] max-w-[400px] rounded-3xl overflow-hidden border-2 border-dashed border-white/30 bg-white/5 backdrop-blur-md text-white/80 hover:animate-pulse"
+>
+  <div
+    class="flex items-center justify-center aspect-[16/9] bg-gradient-to-br from-accent/10 to-white/10"
+  >
+    <svg
+      class="w-16 h-16 text-accent/80"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="1.5"
+      viewBox="0 0 24 24"
+    >
+      <path d="M12 6v6l4 2"></path>
+      <circle cx="12" cy="12" r="9" stroke="currentColor"></circle>
+    </svg>
+  </div>
+
+  <div class="p-6 flex flex-col items-center justify-center text-center gap-2">
+    <h2 class="text-lg font-semibold">{t("projects.placeholder.title")}</h2>
+    <p class="text-neutral-400 text-sm">
+      {t("projects.placeholder.description")}
+    </p>
+  </div>
+</div>
