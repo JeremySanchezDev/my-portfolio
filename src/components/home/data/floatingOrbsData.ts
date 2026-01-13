@@ -42,7 +42,7 @@ export const floatingOrbsData: FloatingOrbConfig[] = [
   },
   {
     Icon: PostgreSQLIcon,
-    position: "top-15 md:top-50 left-0 xs:left-7 xl:left-18 2xl:left-10",
+    position: "top-15 md:top-50 left-0 xs:left-5 xl:left-18 2xl:left-10",
     size: "size-4 md:size-5 2xl:size-6",
     tooltip: "PostgreSQL",
     url: "https://www.postgresql.org/",
