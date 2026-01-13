@@ -56,7 +56,7 @@ export const floatingOrbsData: FloatingOrbConfig[] = [
   },
   {
     Icon: DotNetIcon,
-    position: "top-60 xs:top-50 right-0 xs:right-1 sm:right-2 md:right-3 xl:right-5 2xl:right-2",
+    position: "top-60 xs:top-50 right-0 xs:right-0 sm:right-0 md:right-0 xl:right-3 2xl:right-0",
     size: "size-5 md:size-6 2xl:size-7",
     tooltip: "C# / .NET",
     url: "https://dotnet.microsoft.com/",
