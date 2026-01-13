@@ -2,20 +2,20 @@ import SpainIcon from "@/components/icons/colored/SpainIcon.astro";
 import USIcon from "@/components/icons/colored/USIcon.astro";
 import type { Language } from "@/types/Language";
 
-export const defaultLang = "en";
+export const defaultLang = "es";
 
 export const defaultLanguage: Language = {
   code: defaultLang,
-  Icon: USIcon,
-  title: "English",
+  Icon: SpainIcon,
+  title: "Español",
 };
 
 export const languages: Language[] = [
   defaultLanguage,
   {
-    code: "es",
-    Icon: SpainIcon,
-    title: "Español",
+    code: "en",
+    Icon: USIcon,
+    title: "English",
   },
 ];
 
