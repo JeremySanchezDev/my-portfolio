@@ -2,7 +2,7 @@
 
 This is my personal portfolio site built with modern web technologies to showcase professional experience, projects, and skills in a clean, responsive, and accessible way.
 
-🌐 Live site: [https://jeremysg31.github.io/](https://jeremysg31.github.io/)
+🌐 Live site: [https://jeremysg31.github.io/my-portfolio/](https://jeremysg31.github.io/my-portfolio/)
 
 ## 🔧 Tech Stack
 

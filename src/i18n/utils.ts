@@ -7,9 +7,9 @@ import type {
 import { ui, defaultLang } from "./ui";
 
 export const getLangFromUrl = (url: URL) => {
-  const [, lang] = url.pathname.split("/");
-  if (lang in ui) return lang as keyof typeof ui;
-  return defaultLang;
+  const segments = url.pathname.split("/").filter(Boolean);
+  const lang = segments.find((segment) => segment in ui);
+  return (lang as keyof typeof ui) || defaultLang;
 };
 
 export const useTranslations = (lang: Locale): TranslatorFunction => {

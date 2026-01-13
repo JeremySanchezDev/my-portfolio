@@ -7,7 +7,7 @@ const t = useTranslations(lang);
 ---
 
 <a
-  href={`/documents/${t("home.link-cv")}`}
+  href={`${import.meta.env.BASE_URL}/documents/${t("home.link-cv")}`}
   target="_blank"
   class="py-1 sm:py-2 border-2 border-white rounded-3xl w-full
       flex justify-center items-center gap-4
