@@ -14,7 +14,8 @@ export default defineConfig({
       prefixDefaultLocale: false,
     },
   },
-  site: "https://jeremysg31.github.io/",
+  site: "https://jeremysg31.github.io",
+  base: "/my-portfolio",
   vite: {
     assetsInclude: ["**/*.lottie"],
     plugins: [tailwindcss()],
