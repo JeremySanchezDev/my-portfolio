@@ -24,7 +24,7 @@ const isSpanish = lang === "es";
   {t("home.intro")}
   <br />
   <span
-    class={`text-accent relative text-nowrap ${isSpanish ? "text-2xl sm:text-[clamp(2.5rem,3dvw,3rem)] xl:text-5xl" : ""}`}
+    class="text-accent relative text-nowrap text-2xl sm:text-[clamp(2.5rem,3dvw,3rem)] xl:text-5xl"
   >
     <Typewriter options={typedWriterOptions} client:load />
     <span class="absolute bottom-0 left-0 h-[3px] w-full bg-accent"></span>

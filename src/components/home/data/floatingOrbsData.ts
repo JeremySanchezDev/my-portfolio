@@ -14,14 +14,14 @@ import DotNetIcon from "@/components/icons/DotNetIcon.astro";
 export const floatingOrbsData: FloatingOrbConfig[] = [
   {
     Icon: PythonIcon,
-    position: "top-0 left-0 xl:left-8 2xl:left-5",
+    position: "top-0 left-0 xl:left-5 2xl:left-2",
     size: "size-6 md:size-8 2xl:size-10", // Slightly larger as it's the most important
     tooltip: "Python (Avanzado)",
     url: "https://www.python.org/",
   },
   {
     Icon: KotlinIcon,
-    position: "bottom-0 left-0 xl:left-8 2xl:left-5",
+    position: "bottom-0 left-0 xl:left-5 2xl:left-2",
     size: "size-4 md:size-5 2xl:size-6",
     tooltip: "Kotlin",
     url: "https://kotlinlang.org/",
@@ -42,7 +42,7 @@ export const floatingOrbsData: FloatingOrbConfig[] = [
   },
   {
     Icon: PostgreSQLIcon,
-    position: "top-15 md:top-50 left-0 xs:left-5 xl:left-18 2xl:left-10",
+    position: "top-15 md:top-50 left-0 xs:left-4 xl:left-5 2xl:left-2",
     size: "size-4 md:size-5 2xl:size-6",
     tooltip: "PostgreSQL",
     url: "https://www.postgresql.org/",
@@ -77,7 +77,7 @@ export const floatingOrbsData: FloatingOrbConfig[] = [
   },
   {
     Icon: AwsIcon,
-    position: "bottom-20 left-0 xs:left-10 xl:left-18 2xl:left-10",
+    position: "bottom-20 left-0 xs:left-4 xl:left-5 2xl:left-2",
     size: "size-6 md:size-7 2xl:size-8",
     tooltip: "AWS",
     url: "https://aws.amazon.com/",
