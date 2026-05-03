@@ -14,7 +14,7 @@ export const projectsData: Project[] = [
     title: "projects.review_star.title",
     description: "projects.review_star.description",
     image: reviewStarImage,
-    demoUrl: "https://review-star-eight.vercel.app/",
+    demoUrl: "https://reviewstar-web.vercel.app/",
     codeUrl: "https://github.com/JeremySG31/ReviewStar",
     stack: [
       { title: "Next.js", Icon: NextIcon },
