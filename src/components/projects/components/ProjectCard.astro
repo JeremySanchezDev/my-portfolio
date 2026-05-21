@@ -12,7 +12,7 @@ interface Props {
 }
 
 const { item } = Astro.props;
-const { description, image, stack, title, demoUrl, codeUrl } = item;
+const { description, image, stack, title, demoUrl, codeUrl, demoLabel } = item;
 ---
 
 <div
@@ -32,6 +32,6 @@ const { description, image, stack, title, demoUrl, codeUrl } = item;
         ))
       }
     </ul>
-    <CallToActionButtons codeUrl={codeUrl} demoUrl={demoUrl} />
+    <CallToActionButtons codeUrl={codeUrl} demoUrl={demoUrl} demoLabel={demoLabel} />
   </div>
 </div>

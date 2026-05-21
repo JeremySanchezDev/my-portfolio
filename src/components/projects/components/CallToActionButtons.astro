@@ -4,15 +4,18 @@ import OpenLinkIcon from "@/components/icons/OpenLinkIcon.astro";
 import CodeIcon from "@/components/icons/CodeIcon.astro";
 import { getLangFromUrl, useTranslations } from "@/i18n/utils";
 
+import type { TranslationKey } from "@/i18n/types";
+
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
 interface Props {
   demoUrl: string;
   codeUrl: string;
+  demoLabel?: TranslationKey;
 }
 
-const { demoUrl, codeUrl } = Astro.props;
+const { demoUrl, codeUrl, demoLabel = "projects.button.demo" } = Astro.props;
 ---
 
 <span class="h-[20px] w-full"></span>
@@ -20,7 +23,7 @@ const { demoUrl, codeUrl } = Astro.props;
 <div class="flex justify-between mt-auto">
   <div class="w-[58%]">
     <ProjectButton href={demoUrl} primary>
-      {t("projects.button.demo")}
+      {t(demoLabel)}
       <OpenLinkIcon class="size-4" />
     </ProjectButton>
   </div>

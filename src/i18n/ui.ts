@@ -92,12 +92,17 @@ export const ui = {
     "projects.review_star.title": "ReviewStar",
     "projects.review_star.description":
       "A full-stack platform for reviews and ratings. Built with a robust MERN stack, featuring secure JWT authentication, Cloudinary for image management.",
+    "projects.sentinel.title": "Sentinel Detector — Deep Auditor",
+    "projects.sentinel.description":
+      "A security auditor and scanner CLI for Windows. Combines real-time heuristic analysis with AI validation to detect and clean malware, registry persistences, and malicious files, featuring a built-in cybersecurity expert chatbot.",
 
     "projects.placeholder.title": "More Projects Coming Soon",
     "projects.placeholder.description":
       "Stay tuned, we're still building amazing stuff!",
-    "projects.button.demo": "Demo",
+    "projects.button.demo": "Visit",
     "projects.button.code": "Code",
+    "projects.button.npm": "NPM Package",
+    "projects.button.visit": "Visit Site",
     "about.title": `
       I build <span class="text-accent">solutions</span> that
       <span class="text-accent">scale</span>,
@@ -258,13 +263,18 @@ export const ui = {
     "projects.review_star.title": "ReviewStar",
     "projects.review_star.description":
       "Plataforma FullStack para reseñas y calificaciones. Construida con un robusto stack MERN, incluye autenticación segura JWT, gestión de imágenes con Cloudinary.",
+    "projects.sentinel.title": "Sentinel Detector — Deep Auditor",
+    "projects.sentinel.description":
+      "Auditor y escáner de seguridad para Windows en terminal. Combina análisis heurístico en tiempo real con Inteligencia Artificial para detectar y limpiar malware, persistencias y archivos maliciosos sin falsos positivos, además de incluir un chatbot experto en ciberseguridad.",
 
 
     "projects.placeholder.title": "Más proyectos próximamente",
     "projects.placeholder.description":
       "Estate atento, seguimos construyendo cosas increíbles.",
-    "projects.button.demo": "Demo",
+    "projects.button.demo": "Visitar",
     "projects.button.code": "Código",
+    "projects.button.npm": "Paquete NPM",
+    "projects.button.visit": "Visitar Sitio",
     "about.title": `
       Construyo <span class="text-accent">soluciones</span> que
       <span class="text-accent">escalan</span>,

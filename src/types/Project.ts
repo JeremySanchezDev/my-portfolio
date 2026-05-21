@@ -13,4 +13,5 @@ export interface Project {
   image: ImageMetadata;
   codeUrl: string;
   demoUrl: string;
+  demoLabel?: TranslationKey;
 }
