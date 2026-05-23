@@ -95,6 +95,9 @@ export const ui = {
     "projects.sentinel.title": "Sentinel Detector — Deep Auditor",
     "projects.sentinel.description":
       "A security auditor and scanner CLI for Windows. Combines real-time heuristic analysis with AI validation to detect and clean malware, registry persistences, and malicious files, featuring a built-in cybersecurity expert chatbot.",
+    "projects.datamind.title": "DataMind — AI Data Analyst",
+    "projects.datamind.description":
+      "AI-powered intelligent data analyst. Upload CSV files, ask questions in natural language, and instantly get analysis, 3D interactive visualizations, and insights. Features Firebase authentication and AI analysis via OpenRouter.",
 
     "projects.placeholder.title": "More Projects Coming Soon",
     "projects.placeholder.description":
@@ -266,6 +269,9 @@ export const ui = {
     "projects.sentinel.title": "Sentinel Detector — Deep Auditor",
     "projects.sentinel.description":
       "Auditor y escáner de seguridad para Windows en terminal. Combina análisis heurístico en tiempo real con Inteligencia Artificial para detectar y limpiar malware, persistencias y archivos maliciosos sin falsos positivos, además de incluir un chatbot experto en ciberseguridad.",
+    "projects.datamind.title": "DataMind — AI Data Analyst",
+    "projects.datamind.description":
+      "Analista de datos inteligente impulsado por IA. Carga archivos CSV, haz preguntas en lenguaje natural y obtén análisis, visualizaciones 3D interactivas e insights al instante. Incluye autenticación con Firebase y análisis IA mediante OpenRouter.",
 
 
     "projects.placeholder.title": "Más proyectos próximamente",
