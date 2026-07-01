@@ -73,7 +73,7 @@ export const floatingOrbsData: FloatingOrbConfig[] = [
     position: "top-5 md:top-20 left-4 xs:left-8 md:left-12",
     size: "size-6 md:size-7 2xl:size-8",
     tooltip: "GitHub",
-    url: "https://github.com/JeremySG31",
+    url: "https://github.com/JeremySanchezDev",
   },
   {
     Icon: AwsIcon,

@@ -21,7 +21,7 @@ export const projectsData: Project[] = [
     description: "projects.review_star.description",
     image: reviewStarImage,
     demoUrl: "https://reviewstar-web.vercel.app/",
-    codeUrl: "https://github.com/JeremySG31/ReviewStar",
+    codeUrl: "https://github.com/JeremySanchezDev/ReviewStar",
     demoLabel: "projects.button.visit",
     stack: [
       { title: "Next.js", Icon: NextIcon },
@@ -39,7 +39,7 @@ export const projectsData: Project[] = [
     description: "projects.datamind.description" as any,
     image: datamindImage,
     demoUrl: "https://v0-datamind.vercel.app",
-    codeUrl: "https://github.com/JeremySG31/DataMind",
+    codeUrl: "https://github.com/JeremySanchezDev/DataMind",
     demoLabel: "projects.button.demo" as any,
     stack: [
       { title: "Next.js", Icon: NextIcon },
@@ -54,8 +54,8 @@ export const projectsData: Project[] = [
     title: "projects.sentinel.title",
     description: "projects.sentinel.description",
     image: sentinelImage,
-    demoUrl: "https://www.npmjs.com/package/@jeremysg31/sentinel-detector",
-    codeUrl: "https://github.com/JeremySG31/detectar_lacra",
+    demoUrl: "https://www.npmjs.com/package/@jeremysanchezdev/sentinel-detector",
+    codeUrl: "https://github.com/JeremySanchezDev/detectar_lacra",
     demoLabel: "projects.button.npm",
     stack: [
       { title: "Python", Icon: PythonIcon },

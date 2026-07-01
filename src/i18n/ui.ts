@@ -157,7 +157,7 @@ export const ui = {
 
     "contact.github.title": "GitHub",
     "contact.github.description": "Explore my code & projects",
-    "contact.github.url": "https://github.com/JeremySG31",
+    "contact.github.url": "https://github.com/JeremySanchezDev",
 
     "contact.linkedin.title": "LinkedIn",
     "contact.linkedin.description": "Connect with me professionally",
@@ -335,7 +335,7 @@ export const ui = {
 
     "contact.github.title": "GitHub",
     "contact.github.description": "Explora mi código y proyectos",
-    "contact.github.url": "https://github.com/JeremySG31",
+    "contact.github.url": "https://github.com/JeremySanchezDev",
 
     "contact.linkedin.title": "LinkedIn",
     "contact.linkedin.description": "Conéctate conmigo profesionalmente",

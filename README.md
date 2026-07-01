@@ -2,7 +2,7 @@
 
 This is my personal portfolio site built with modern web technologies to showcase professional experience, projects, and skills in a clean, responsive, and accessible way.
 
-🌐 Live site: [https://jeremysg31.github.io/my-portfolio/](https://jeremysg31.github.io/my-portfolio/)
+🌐 Live site: [https://jeremysanchezdev.github.io/my-portfolio/](https://jeremysanchezdev.github.io/my-portfolio/)
 
 ## 🔧 Tech Stack
 
@@ -42,7 +42,7 @@ src/
 1. **Clone the repo**
 
    ```bash
-   git clone https://github.com/JeremySG31/my-portfolio.git
+   git clone https://github.com/JeremySanchezDev/my-portfolio.git
    cd my-portfolio
    ```
 
@@ -84,4 +84,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 📬 Contact
 
-Made by **Jeremy Sánchez** — [LinkedIn](https://www.linkedin.com/in/jeremydevsoft/) • [GitHub](https://github.com/JeremySG31)
+Made by **Jeremy Sánchez** — [LinkedIn](https://www.linkedin.com/in/jeremydevsoft/) • [GitHub](https://github.com/JeremySanchezDev)
