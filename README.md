@@ -1,87 +1,87 @@
-# 🌐 Jeremy Sánchez - Portfolio Website
+# 🌐 Jeremy Sánchez - Sitio Web de Portafolio
 
-This is my personal portfolio site built with modern web technologies to showcase professional experience, projects, and skills in a clean, responsive, and accessible way.
+Este es mi sitio web de portafolio personal, construido con tecnologías web modernas para mostrar mi experiencia profesional, proyectos y habilidades de una manera limpia, adaptativa y accesible.
 
-🌐 Live site: [https://jeremysanchezdev.github.io/my-portfolio/](https://jeremysanchezdev.github.io/my-portfolio/)
+🌐 Sitio en vivo: [https://jeremysanchezdev.github.io/my-portfolio/](https://jeremysanchezdev.github.io/my-portfolio/)
 
-## 🔧 Tech Stack
+## 🔧 Tecnologías Utilizadas
 
-- **Astro** – Static site generator
-- **React** – Interactive UI components
-- **TypeScript** – Type-safe development
-- **Tailwind CSS v4** – Modern styling
-- **Vite** – Lightning-fast development bundler
-- **GitHub Actions** – CI/CD for automated deployment
-- **GitHub Pages** – Hosting platform
+- **Astro** – Generador de sitios estáticos
+- **React** – Componentes de interfaz de usuario interactivos
+- **TypeScript** – Desarrollo con tipado seguro
+- **Tailwind CSS v4** – Estilizado moderno
+- **Vite** – Empaquetador de desarrollo ultrarrápido
+- **GitHub Actions** – CI/CD para despliegue automatizado
+- **GitHub Pages** – Plataforma de alojamiento (hosting)
 
-## 🌍 Features
+## 🌍 Características
 
-- 🔁 **i18n (internationalization)**: Supports both **English** and **Spanish**
-- 🌗 **Dark/Light mode toggle** with system preference detection
-- 🧭 **Responsive navigation** for desktop and mobile
-- 📁 Organized folder structure following best practices
-- 📦 Modular and reusable UI components
-- 🌐 Deployed via **GitHub Actions** with configuration for **GitHub Pages**
+- 🔁 **i18n (internacionalización)**: Soporta tanto **Español** como **Inglés**
+- 🌗 **Alternador de modo Oscuro/Claro** con detección de preferencias del sistema
+- 🧭 **Navegación adaptable (responsive)** para escritorio y dispositivos móviles
+- 📁 Estructura de carpetas organizada siguiendo las mejores prácticas
+- 📦 Componentes de UI modulares y reutilizables
+- 🌐 Desplegado a través de **GitHub Actions** configurado para **GitHub Pages**
 
-## 📁 Project Structure
+## 📁 Estructura del Proyecto
 
 ```bash
 src/
-├── assets/ # Images and media
-├── components/ # UI components (About, Projects, Navbar, etc.)
-├── data/ # Content and static configuration
-├── i18n/ # Internationalization logic
-├── layouts/ # Base layout
-├── pages/ # Route-based content
-├── styles/ # Global styles (CSS variables, fonts)
-├── types/ # TypeScript interfaces
+├── assets/ # Imágenes y archivos multimedia
+├── components/ # Componentes de UI (About, Projects, Navbar, etc.)
+├── data/ # Contenido y configuración estática
+├── i18n/ # Lógica de internacionalización
+├── layouts/ # Diseño (layout) base
+├── pages/ # Contenido basado en rutas
+├── styles/ # Estilos globales (variables CSS, fuentes)
+├── types/ # Interfaces de TypeScript
 ```
 
-## 🚀 Getting Started
+## 🚀 Cómo Empezar
 
-1. **Clone the repo**
+1. **Clonar el repositorio**
 
    ```bash
    git clone https://github.com/JeremySanchezDev/my-portfolio.git
    cd my-portfolio
    ```
 
-2. **Install dependencies**
+2. **Instalar dependencias**
 
    ```bash
    npm install
    ```
 
-3. **Run development server**
+3. **Ejecutar el servidor de desarrollo**
 
    ```bash
    npm run dev
    ```
 
-4. **Build for production**
+4. **Compilar para producción**
 
    ```bash
    npm run build
    ```
 
-## 🚚 Deployment
+## 🚚 Despliegue
 
-This project is deployed via GitHub Actions and hosted on GitHub Pages.
+Este proyecto se despliega automáticamente a través de GitHub Actions y está alojado en GitHub Pages.
 
-## ✍️ Customization
+## ✍️ Personalización
 
-- Edit content in `src/components/*/data` and `src/i18n`
-- Add languages via `src/i18n/ui.ts`
-- Adjust theme or colors via CSS variables in `src/styles/global.css`
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
+- Edita el contenido en `src/components/*/data` y en `src/i18n`
+- Añade idiomas a través de `src/i18n/ui.ts`
+- Ajusta el tema o los colores mediante variables CSS en `src/styles/global.css`
 
 ---
 
-## 📬 Contact
+## 📄 Licencia
 
-Made by **Jeremy Sánchez** — [LinkedIn](https://www.linkedin.com/in/jeremydevsoft/) • [GitHub](https://github.com/JeremySanchezDev)
+Este proyecto es de código abierto y está disponible bajo la [Licencia MIT](LICENSE).
+
+---
+
+## 📬 Contacto
+
+Creado por **Jeremy Sánchez** — [LinkedIn](https://www.linkedin.com/in/jeremydevsoft/) • [GitHub](https://github.com/JeremySanchezDev)
