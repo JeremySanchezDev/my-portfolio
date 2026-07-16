@@ -1,12 +1,9 @@
 import reviewStarImage from "@/assets/projects/review_star.png";
 import sentinelImage from "@/assets/projects/sentinel_detector.png";
-import datamindImage from "@/assets/projects/datamind.png";
 import TailwindCSSIcon from "@/components/icons/colored/TailwindCSSIcon.astro";
 import TypeScriptIcon from "@/components/icons/colored/TypeScriptIcon.astro";
 import VercelIcon from "@/components/icons/colored/VercelIcon.astro";
 import NextIcon from "@/components/icons/NextIcon.astro";
-import ReactIcon from "@/components/icons/colored/ReactIcon.astro";
-import FirebaseIcon from "@/components/icons/colored/FirebaseIcon.astro";
 import type { Project } from "@/types/Project";
 import JavaScriptIcon from "@/components/icons/colored/JavaScriptIcon.astro";
 import NodeIcon from "@/components/icons/colored/NodeIcon.astro";
@@ -32,22 +29,6 @@ export const projectsData: Project[] = [
       { title: "Nodemailer", Icon: EmailIcon },
       { title: "Vercel", Icon: VercelIcon },
       { title: "Backend (Express/MongoDB)", Icon: CodeIcon },
-    ],
-  },
-  {
-    title: "projects.datamind.title" as any,
-    description: "projects.datamind.description" as any,
-    image: datamindImage,
-    demoUrl: "https://v0-datamind.vercel.app",
-    codeUrl: "https://github.com/JeremySanchezDev/DataMind",
-    demoLabel: "projects.button.demo" as any,
-    stack: [
-      { title: "Next.js", Icon: NextIcon },
-      { title: "React", Icon: ReactIcon },
-      { title: "TypeScript", Icon: TypeScriptIcon },
-      { title: "Tailwind CSS", Icon: TailwindCSSIcon },
-      { title: "Firebase", Icon: FirebaseIcon },
-      { title: "AI & WebGL", Icon: CodeIcon },
     ],
   },
   {
